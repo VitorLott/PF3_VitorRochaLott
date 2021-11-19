@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilo.css">
+        <title>Prova Final TPA</title>
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <header>
+            <h1><b>Calculadora de Poupança</b></h1>
+        </header>
+        
+        <section>
+
+            <div class="input">
+                <label>Nome:</label>
+                <input placeholder="Cleito Afonso Junior" type="text" id='nome'>
+            </div>
+            <br>
+            <div class="input">
+                <label>Quantiade a aplicar:</label>
+                <input placeholder="100.00" type="number" id='quantidade'>
+            </div>
+            <br>
+            <div class="input">
+                <label >Taxa de juros:</label>
+                <input placeholder="1%" type="number" id='taxa'>
+            </div>
+            <br>
+            <div class="input">
+                <label>Tempo em meses:</label><br><br>
+                <input placeholder="100 meses" type="number" id='tempo'><br><br>
+            </div>
+            <br>
+            <br>
+            <div class="botao">
+                <button id='calcular' ><b>Calcular</b></button>
+            </div>
+            <br>
+            <div class="result" id='resultado'>
+                <br>
+                <br>
+            </div>
+
+        </section>
+
+        <script src="script.js">
+
+        </script>
+    </body>
+</html>
